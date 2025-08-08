@@ -1,0 +1,31 @@
+npm init -y
+npm create vite@latest client
+cd client
+npm i axios copy-text-to-clipboard html-to-text jodit-react jwt-decode moment react-fast-marquee
+
+npm i express mongoose cors body-parser monet cloudinary bcrypt dotenv formidable jsonwebtoken
+npm i nodemon -D
+npm i concurrently -D
+npm i react-helmet react-hot-toast react-icons react-multi-carousel react-router-dom react-spinners-components 
+npm i react-html-parser --force OR  npm i html-react-parser
+
+npm install tailwindcss @tailwindcss/vite
+https://tailwindcss.com/docs/installation/using-vite
+
+package.json =>   
+"scripts": {
+    "server": "nodemon server.js",
+    "client": "npm run dev --prefix client",
+    "start": "node server.js",
+    "build": "npm run build --prefix client",
+    "dev": "concurrently \" npm run server \" \" npm run client \" "
+  },
+
+
+sudo service mongod start
+
+npm install moment --force
+
+https://console.cloudinary.com/app/c-7898ce7888ed7bf72e28b097e5e4f0/assets/media_library/folders/cc35652b81095fb0189514c31be632e1ef?view_mode=mosaic
+
+npm run server

@@ -1,0 +1,12 @@
+npx create-next-app@latest
+cd my-app
+npm run dev
+
+cd my-app
+npm i moment
+https://momentjs.com/
+npm i react-icons react-spinners-components react-fast-marquee react-multi-carousel
+https://www.npmjs.com/package/react-multi-carousel
+npm install html-to-text
+npm install html-react-parser
+
